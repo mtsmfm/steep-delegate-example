@@ -1,0 +1,7 @@
+class Foo
+  def to_json: (*untyped) -> String
+end
+
+class Bar
+  def to_json: (untyped) -> String
+end
